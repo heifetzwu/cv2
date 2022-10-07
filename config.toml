@@ -1,0 +1,314 @@
+# Page settings
+
+baseURL = "https://cv.okidog.xyz/"
+#baseURL = "http://172.18.0.3/"
+languageCode = "zh"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "吳迪明"
+    description = "履歷表"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "吳廸明"
+        tagline = "Architect / SRE"
+        avatar = "jack1.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "台北"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "0921958839"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "heifetzwu@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "cv.okidog.xyz"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "技術"
+        [[params.skills.list.items]]
+        details = "Oracle/DB2/MongoDB/sql/資料庫設計"
+        [[params.skills.list.items]]
+        details = "golang/java"
+        [[params.skills.list.items]]
+        details = "git/svn"
+        [[params.skills.list.items]]
+        details = "AWS"
+        [[params.skills.list.items]]
+        details = "Docker/Kubernetes/Jenkins"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "專業"
+        [[params.skills.list.items]]
+        details = "溝通/團隊合作/問題解決/專案管理"
+        
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "管理科學系"
+        university = "國立交通大學"
+        dates = "1990 - 1994"
+        [[params.education.list]]
+        degree = "普通高中"
+        university = "師大附中"
+        dates = ""
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "AWS Certified Solutions Architect - Associate"
+        body = "http://bit.ly/2SoRywM"
+        date = "2017"
+        
+        [[params.awards.list]]
+        name = "TOEIC"
+        body = "TOEIC Listening and Reading Total Score: 790"
+        date = "2016/9/25"
+        
+        [[params.awards.list]]
+        name = "IBM DB2"
+        body = "IBM Certified Database Associate -- DB2 Universal Database V8.1 Family"
+        date = "2005"
+        
+        [[params.awards.list]]
+        name = "OCP AD"
+        body = "Oracle Certified Application Developer Rel.1"
+        date = "1999"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "中文/台語"
+        level = "母語"
+        [[params.languages.list]]
+        name = "英文"
+        level = "流利"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "爬山/馬拉松/單車/游泳/瑜珈"
+        [[params.interests.list]]
+        name = "攝影"
+        [[params.interests.list]]
+        name = "古典音樂"
+        
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "擔任系統架構顧問與設計/雲端服務與Devops工程師"
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "IT Consultant"
+        dates = "2000 - 2013"
+        company = "IBM"
+        details = "擔任專案系統架構技術主管/協助專案規畫書建議"
+        
+        [[params.experience.list.items]]
+        details = "Architect:    Design  architecture,  implement  solution  that  meet  FRs  and  NFRs.  Interfaces  b/w  applications/legacy  systems  should  also  be  well  considered,  designed  and  developed."
+        [[params.experience.list.items]]
+        details = "DBA:  I  performed  job  role  of  DBA  at  the  project  which  was  to  build  a  Health  Information  System  (HIS).  I  perform  the  job  of  managing  database  ,  data  management  ,  database  migration  (Migrate  from  Oracle  to  IBM  DB2),  data  synchronization."
+        [[params.experience.list.items]]
+        details = "SA:  Identified  client  requirements  and  designed  the  application  to  meet  those  requirements."
+
+        [[params.experience.list]]
+        title = "Software Developer"
+        dates = "1998 - 2000"
+        company = "宏詹資訊 IISI"
+        details = "程式開發"
+        [[params.experience.list.items]]
+        details = "I  took  full  training  of  Oracle  Database  and  it’s  development  tool  and  a  little  bit  Oracle  ERP  and  got  certified  “Oracle  Certified  Application  Developer  Rel.1”."
+        [[params.experience.list.items]]
+        details = "eveloped  Shop  floor  control  system  for  Sanyang  Motor  Company  (SYM)  which  is  for  auto  production  line  for  manufacturing."
+
+        [[params.experience.list]]
+        title = "STAFF"
+        dates = "1996 - 1998"
+        company = "長榮國際"
+        details = "I  were  in  charge  for  insurances  for  aviation  including  APA,  LOL,  Aircraft  and  Liabilities.  Coverage  included  insurance  placement,  renewal  and  claim."
+
+       
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "CTBC Filenet "
+        meta = " ITA & SA & SD"
+        tagline = "Reverse client's existing spec and code to new design spec and Java code. Incorporate new Filenet solution in the project, tailor new solution to meet requirements and tackle the gap of the new solution. Lead team to develop applications"
+
+        [[params.projects.list]]
+        title = "FCB New Enterprise Bank Portal "
+        meta = "ITA & SA & SD"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Walsin eProcurement"
+        meta = "ITA"
+        tagline = "Lead team to build eProcurement system(EP) on WAS/Oracle. Interface to SAP via JCO. Design data migration strategy from old system to new EP"
+
+        [[params.projects.list]]
+        title = "TTL Employee Portal"
+        meta = "ITA"
+        tagline = "Build up Employee Portal. Integrate client existing authentication  (i.e. AD) to enforce SSO. Integrate client interfaced systems, such as official documents system, e-flow system, contacts system and work time /compensation system.	Plan the interfaces for ERP integration next stage"
+
+        [[params.projects.list]]
+        title = "FCB Enterprise Bank Upgrade"
+        meta = "ITA"
+        tagline = "Upgrade application system, enhance system availability and performance. DB performance tuning including statement tuning and system tuning. Design the architecture to enable HA in the EB(Enterprise Bank) system covering the products of MQ, WAS and DB2. FXML gateway service performance tuning."
+        
+        [[params.projects.list]]
+        title = "FDC Tax Reform Consulting Project"
+        meta = "IT Consultant"
+        tagline = "Introduce the methodologies to the project to help client blueprint their next system. Methodologies adopted including EA, Guiding Principle, Component Model, Architecture Decision"
+        
+        [[params.projects.list]]
+        title = "ePost "
+        meta = "SA"
+        tagline = "SA and SD of the ePost"
+      
+        [[params.projects.list]]
+        title = "CGH Health Information"
+        meta = "DBA"
+        tagline = "DB Migration from Oracle to DB2 including data and store procedure.Design multi-districts, data extracts and loading mechanism. Manage schema for SA and perform statement tuning and system performance tuning"
+        
+        [[params.projects.list]]
+        title = "FCB eCheck"
+        meta = "ITA & SA"
+        tagline = "Integrate client ESB system. Perform TCH MIG/SIG"
+        [[params.projects.list]]
+        title = "HNCB eCheck"
+        meta = "ITA & SA"
+        tagline = "Integrate client EAI system.	Perform TCH MIG/SIG."
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = false
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
+
+
+
+
+
