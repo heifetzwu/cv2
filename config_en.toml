@@ -244,7 +244,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         #title = "FCB New Enterprise Bank Portal "
         title = "F Bank New Enterprise Bank Portal "
         meta = "ITA & SA & SD"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        tagline = "Upgrade and develop new cx portal with new look and feel, multi-lingo capability. Perform HA and Stress test to ensure robustness"
 
         [[params.projects.list]]
         #title = "Walsin eProcurement"

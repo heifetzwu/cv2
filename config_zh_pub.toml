@@ -256,9 +256,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         tagline = "Reverse client's existing spec and code to new design spec and Java code. Incorporate new Filenet solution in the project, tailor new solution to meet requirements and tackle the gap of the new solution. Lead team to develop applications"
 
         [[params.projects.list]]
-        title = "FCB New Enterprise Bank Portal "
+        title = "F Bank New Internet Banking Portal "
         meta = "ITA & SA & SD"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        tagline = "Upgrade and develop new cx portal with new look and feel, multi-lingo capability. Perform HA and Stress test to ensure robustness"
 
         [[params.projects.list]]
         title = "Walsin eProcurement"
