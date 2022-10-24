@@ -222,11 +222,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "擔任專案系統架構技術主管/協助專案規畫書建議"
         
         [[params.experience.list.items]]
-        details = "Architect:    Design  architecture,  implement  solution  that  meet  FRs  and  NFRs.  Interfaces  b/w  applications/legacy  systems  should  also  be  well  considered,  designed  and  developed."
+        details = "Architect: Design architecture with Architecture Thinking, implement solution that meet FRs and NFRs. Interfaces b/w applications/legacy systems should also be well considered, designed and developed"
         [[params.experience.list.items]]
-        details = "DBA:  I  performed  job  role  of  DBA  at  the  project  which  was  to  build  a  Health  Information  System  (HIS).  I  perform  the  job  of  managing  database  ,  data  management  ,  database  migration  (Migrate  from  Oracle  to  IBM  DB2),  data  synchronization."
+        details = "DBA: I performed job role of DBA. The job includes database management, migration(Migrate from Oracle to IBM DB2), data synchronization"
         [[params.experience.list.items]]
-        details = "SA:  Identified  client  requirements  and  designed  the  application  to  meet  those  requirements."
+        details = "SA: Identified requirements and designed the application; lead development team to make it real"
 
         [[params.experience.list]]
         title = "Software Developer"
@@ -234,15 +234,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "宏詹資訊 IISI"
         details = "程式開發"
         [[params.experience.list.items]]
-        details = "I  took  full  training  of  Oracle  Database  and  it’s  development  tool  and  a  little  bit  Oracle  ERP  and  got  certified  “Oracle  Certified  Application  Developer  Rel.1”."
+        details = "I took full training of Oracle Database and it’s development tool; Achieved to get certified “Oracle  Certified  Application  Developer  Rel.1”."
         [[params.experience.list.items]]
-        details = "eveloped  Shop  floor  control  system  for  Sanyang  Motor  Company  (SYM)  which  is  for  auto  production  line  for  manufacturing."
-
+        #details = "Developed  Shop  floor  control  system  for  Sanyang  Motor  Company  (SYM)  which  is  for  auto  production  line  for  manufacturing."
+        details = "Developed Shop floor control system for SYM to build automation control system for car manufacturing"
         [[params.experience.list]]
         title = "STAFF"
         dates = "1996 - 1998"
         company = "長榮國際"
-        details = "I  were  in  charge  for  insurances  for  aviation  including  APA,  LOL,  Aircraft  and  Liabilities.  Coverage  included  insurance  placement,  renewal  and  claim."
+        details = "I were in charge for insurances for aviation including APA, LOL, Aircraft and Liabilities. Coverage included insurance placement, renewal and claim"
 
        
 
