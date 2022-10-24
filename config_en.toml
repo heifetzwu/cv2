@@ -11,7 +11,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
     author = "Jack Wu"
-    description = "履歷表"
+    description = "Resume"
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
 
@@ -23,12 +23,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "台北"
+        location = "Taipei"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
         text = "0921xxxxxx"
+        id = "tel"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
@@ -94,7 +95,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Profession"
         [[params.skills.list.items]]
-        details = "溝通/團隊合作/問題解決/專案管理"
+        details = "communication/co-work/team building/prj. mgmt."
         [[params.skills.list.items]]
         details = "Design and implement database structures"
         [[params.skills.list.items]]
@@ -107,12 +108,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "管理科學系"
-        university = "國立交通大學"
+        degree = "Management Science"
+        university = "NCTU"
         dates = "1990 - 1994"
         [[params.education.list]]
-        degree = "普通高中"
-        university = "師大附中"
+        #degree = "普通高中"
+        university = "HSNTNU"
         dates = ""
 
 
@@ -156,11 +157,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.languages.list]]
-        name = "中文/台語"
-        level = "母語"
+        name = "Chinese"
+        level = "Native"
         [[params.languages.list]]
-        name = "英文"
-        level = "流利"
+        name = "English"
+        level = "Fluent"
 
 
 
@@ -169,11 +170,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "爬山/馬拉松/單車/游泳/瑜珈"
+        
+				name = "hiking/marathon/cycling/swim/yoga"
         [[params.interests.list]]
-        name = "攝影"
+        name = "photo"
         [[params.interests.list]]
-        name = "古典音樂"
+        name = "classical music"
         
 
 
@@ -184,7 +186,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "擔任系統架構顧問與設計/雲端服務與Devops工程師"
+        #text = "擔任系統架構顧問與設計/雲端服務與Devops工程師"
+        text = "System architect design and consultancy/cloud and devops/SRE"
 
 
 
@@ -200,8 +203,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "IT Consultant"
         dates = "2000 - 2013"
         company = "IBM"
-        details = "擔任專案系統架構技術主管/協助專案規畫書建議"
-        
+        #details = "擔任專案系統架構技術主管/協助專案規畫書建議"
+        details = "System architect and tech. lead/support engagement SoW/proposal"
         [[params.experience.list.items]]
         details = "Architect:    Design  architecture,  implement  solution  that  meet  FRs  and  NFRs.  Interfaces  b/w  applications/legacy  systems  should  also  be  well  considered,  designed  and  developed."
         [[params.experience.list.items]]
@@ -212,8 +215,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Software Developer"
         dates = "1998 - 2000"
-        company = "宏詹資訊 IISI"
-        details = "程式開發"
+        company = "IISI"
+        details = "developer"
         [[params.experience.list.items]]
         details = "I  took  full  training  of  Oracle  Database  and  it’s  development  tool  and  a  little  bit  Oracle  ERP  and  got  certified  “Oracle  Certified  Application  Developer  Rel.1”."
         [[params.experience.list.items]]
@@ -222,7 +225,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "STAFF"
         dates = "1996 - 1998"
-        company = "長榮國際"
+        company = "Evergreen Int'l Co."
         details = "I  were  in  charge  for  insurances  for  aviation  including  APA,  LOL,  Aircraft  and  Liabilities.  Coverage  included  insurance  placement,  renewal  and  claim."
 
        
@@ -285,8 +288,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         meta = "ITA & SA"
         tagline = "Integrate client ESB system. Perform TCH MIG/SIG"
         [[params.projects.list]]
+        #title = "H Bank eCheck"
         title = "H Bank eCheck"
-        #title = "HNCB eCheck"
         meta = "ITA & SA"
         tagline = "Integrate client EAI system.	Perform TCH MIG/SIG"
 
@@ -314,20 +317,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.social]
         enable = true
 
-       # [[params.social.list]]
-       # icon = "fab fa-github-square"
-       # url = "//github.com/username"
-       # title = "username"
-       # [[params.social.list]]
-       # icon = "fab fa-linkedin"
-       # url = "//linkedin.com/in/username"
-       # title = "username"
-       # [[params.social.list]]
-       # icon = "fab fa-twitter-square"
-       # url = "//twitter.com/username"
-       # title = "@username"
-
-
-
-
-
+        #[[params.social.list]]
+        #icon = "fab fa-github-square"
+        #url = "//github.com/username"
+        #title = "username"
+        #[[params.social.list]]
+        #icon = "fab fa-linkedin"
+        #url = "//linkedin.com/in/username"
+        #title = "username"
+        #[[params.social.list]]
+        #icon = "fab fa-twitter-square"
+        #url = "//twitter.com/username"
+        #title = "@username"

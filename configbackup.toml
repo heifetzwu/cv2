@@ -3,7 +3,8 @@
 #baseURL = "https://cv.okidog.xyz/"
 baseURL = "https://heifetzwu.github.io/"
 #baseURL = "http://172.18.0.3/"
-languageCode = "zh"
+#languageCode = "zh"
+languageCode = "zh-tW"
 title = ""
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
@@ -29,6 +30,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fas fa-phone-square"
         url = "tel:#"
         text = "0921xxxxxx"
+        id = "tel"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
@@ -42,14 +44,26 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.skills]
         enable = true
 
-        
-        
         [[params.skills.list]]
-        title = "Database"
+        title = "技術"
+        
         [[params.skills.list.items]]
-        details = "Oracle/DB2/MongoDB/mysql/postgreql"
-        [[params.skills.list]]
-        title = "Scripting"
+        details = "Oracle/DB2/MongoDB/sql/資料庫設計"
+        [[params.skills.list.items]]
+        details = "golang/java"
+        [[params.skills.list.items]]
+        details = "git/svn"
+        [[params.skills.list.items]]
+        details = "AWS"
+        [[params.skills.list.items]]
+        details = "Docker/Kubernetes/Jenkins"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+       [[params.skills.list]]
+        title = "技術 Scripting"
         [[params.skills.list.items]]
         details = "bash"
         [[params.skills.list]]
@@ -69,6 +83,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "CI/CD Tools"
         [[params.skills.list.items]]
         details = "Jenkins"
+        
         [[params.skills.list]]
         title = "Container Orchestration"
         [[params.skills.list.items]]
@@ -90,15 +105,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Network"
         [[params.skills.list.items]]
-        details = "Istio"
+        details = "Isitio"
         [[params.skills.list]]
-        title = "Profession"
+        title = "專業"
         [[params.skills.list.items]]
         details = "溝通/團隊合作/問題解決/專案管理"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        
+
+
+
 
 
 
@@ -127,8 +142,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.awards.list]]
         name = "AWS Certified Solutions Architect - Associate"
-        body = "SAA"
-        date = "2017/10/26 ~ 2020/10/26"
+        body = "http://bit.ly/2SoRywM"
+        date = "2017"
         
         [[params.awards.list]]
         name = "TOEIC"
@@ -161,6 +176,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.languages.list]]
         name = "英文"
         level = "流利"
+
+
+
+
 
 
 
@@ -232,63 +251,53 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.projects.list]]
-        #title = "CTBC Filenet "
-        title = "C Bank Filenet "
+        title = "CTBC Filenet "
         meta = " ITA & SA & SD"
         tagline = "Reverse client's existing spec and code to new design spec and Java code. Incorporate new Filenet solution in the project, tailor new solution to meet requirements and tackle the gap of the new solution. Lead team to develop applications"
 
         [[params.projects.list]]
-        #title = "FCB New Enterprise Bank Portal "
-        title = "F Bank New Enterprise Bank Portal "
+        title = "FCB New Enterprise Bank Portal "
         meta = "ITA & SA & SD"
         tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 
         [[params.projects.list]]
-        #title = "Walsin eProcurement"
-        title = "W Co. eProcurement"
+        title = "Walsin eProcurement"
         meta = "ITA"
         tagline = "Lead team to build eProcurement system(EP) on WAS/Oracle. Interface to SAP via JCO. Design data migration strategy from old system to new EP"
 
         [[params.projects.list]]
-        #title = "TTL Employee Portal"
-        title = "T Co. Employee Portal"
+        title = "TTL Employee Portal"
         meta = "ITA"
         tagline = "Build up Employee Portal. Integrate client existing authentication  (i.e. AD) to enforce SSO. Integrate client interfaced systems, such as official documents system, e-flow system, contacts system and work time /compensation system.	Plan the interfaces for ERP integration next stage"
 
         [[params.projects.list]]
-        #title = "FCB Enterprise Bank Upgrade"
-        title = "F Bank Enterprise Bank Upgrade"
+        title = "FCB Enterprise Bank Upgrade"
         meta = "ITA"
         tagline = "Upgrade application system, enhance system availability and performance. DB performance tuning including statement tuning and system tuning. Design the architecture to enable HA in the EB(Enterprise Bank) system covering the products of MQ, WAS and DB2. FXML gateway service performance tuning."
         
         [[params.projects.list]]
-        #title = "F Center Tax Reform Consulting Project"
-        title = "F  Tax Reform Consulting Project"
+        title = "FDC Tax Reform Consulting Project"
         meta = "IT Consultant"
         tagline = "Introduce the methodologies to the project to help client blueprint their next system. Methodologies adopted including EA, Guiding Principle, Component Model, Architecture Decision"
         
         [[params.projects.list]]
-        #title = "ePost "
         title = "ePost "
         meta = "SA"
         tagline = "SA and SD of the ePost"
       
         [[params.projects.list]]
-        #title = "CGH Information"
-        title = "C Hospital HIS"
+        title = "C Hospital Health Information"
         meta = "DBA"
         tagline = "DB Migration from Oracle to DB2 including data and store procedure.Design multi-districts, data extracts and loading mechanism. Manage schema for SA and perform statement tuning and system performance tuning"
         
         [[params.projects.list]]
-        #title = "FCB eCheck"
         title = "F Bank eCheck"
         meta = "ITA & SA"
         tagline = "Integrate client ESB system. Perform TCH MIG/SIG"
         [[params.projects.list]]
         title = "H Bank eCheck"
-        #title = "HNCB eCheck"
         meta = "ITA & SA"
-        tagline = "Integrate client EAI system.	Perform TCH MIG/SIG"
+        tagline = "Integrate client EAI system.	Perform TCH MIG/SIG."
 
     [params.information]
         enable = false
@@ -314,18 +323,18 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.social]
         enable = true
 
-       # [[params.social.list]]
-       # icon = "fab fa-github-square"
-       # url = "//github.com/username"
-       # title = "username"
-       # [[params.social.list]]
-       # icon = "fab fa-linkedin"
-       # url = "//linkedin.com/in/username"
-       # title = "username"
-       # [[params.social.list]]
-       # icon = "fab fa-twitter-square"
-       # url = "//twitter.com/username"
-       # title = "@username"
+    #    [[params.social.list]]
+    #    icon = "fab fa-github-square"
+    #    url = "//github.com/username"
+    #    title = "username"
+    #    [[params.social.list]]
+    #    icon = "fab fa-linkedin"
+    #    url = "//linkedin.com/in/username"
+    #    title = "username"
+    #    [[params.social.list]]
+    #    icon = "fab fa-twitter-square"
+    #    url = "//twitter.com/username"
+    #    title = "@username"
 
 
 
