@@ -130,7 +130,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "CKA"
         body = "Certified Kubernetes Architect"
         #body = "https://www.credly.com/badges/636bfa4b-7f56-49f9-ae2b-92991e998e5c/public_url"
-        date = "2023/2/15 ~ 2026/2/16"
+        date = "2023/2/15 ~ 2026/2/15"
 
         [[params.awards.list]]
         name = "AWS Certified Solutions Architect - Associate"
