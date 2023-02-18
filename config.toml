@@ -128,6 +128,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 	[[params.awards.list]]
         name = "CKA"
+        url = "https://www.credly.com/badges/636bfa4b-7f56-49f9-ae2b-92991e998e5c/public_url"
         body = "Certified Kubernetes Architect"
         #body = "https://www.credly.com/badges/636bfa4b-7f56-49f9-ae2b-92991e998e5c/public_url"
         date = "2023/2/15 ~ 2026/2/15"
@@ -211,7 +212,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "擔任專案系統架構技術主管/協助專案規畫書建議"
         
         [[params.experience.list.items]]
-        details = "Architect: Design architecture with Architecture Thinking, implement solution that meet FRs and NFRs. Interfaces b/w applications/legacy systems should also be well considered, designed and developed"
+        details = "Architect: Design architecture, implement solution that meet FRs, NFRs and interfaces requirements b/w client existing system and new system"
+        
         [[params.experience.list.items]]
         details = "DBA: I performed job role of DBA. The job includes database management, migration(Migrate from Oracle to IBM DB2), data synchronization"
         [[params.experience.list.items]]
