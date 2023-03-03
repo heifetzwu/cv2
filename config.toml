@@ -197,15 +197,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "擔任系統架構顧問與設計/雲端服務與Devops工程師"
-
-
-
-
-
-
-
-
+        text = "個性穩定, 負責, 擅長溝通合作, 過往經歷了系統分析以及專案架構師培養了豐富的領導團隊經驗以及扎實的技術基礎。 \n後來因為長輩照護需求, 暫時中斷了工作。\n近年來自我精進雲端, 以及叢集分散式架構, 期許能有更有效率的方式來完成更有價值的工作。"
+        
     [params.experience]
         enable = true
 
