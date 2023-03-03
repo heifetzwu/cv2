@@ -188,8 +188,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.summary]
         enable = true
         #text = "擔任系統架構顧問與設計/雲端服務與Devops工程師"
-        text = "System architect design and consultancy/cloud and devops/SRE"
-
+        #text = "System architect design and consultancy/cloud and devops/SRE"
+        text = "Stable personality, responsible, and skilled in communication and collaboration. Having past experience in system analysis and project architecture, I have developed rich leadership and team management skills, as well as a solid technical foundation. However, I had to temporarily interrupt my work due to the need for elderly care. In recent years, I have been self-improving in cloud computing and distributed cluster architecture, with the expectation of finding more efficient ways to complete more valuable work."
 
 
 
