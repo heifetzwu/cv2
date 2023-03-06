@@ -89,7 +89,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Lambda"
         
         [[params.skills.list]]
-        title = "Network"
+        title = "Service Mesh"
         [[params.skills.list.items]]
         details = "Istio"
         [[params.skills.list]]
@@ -209,11 +209,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "擔任專案系統架構技術主管/協助專案規畫書建議"
         
         [[params.experience.list.items]]
-        details = "Architect: Design architecture, implement solution that meet FRs, NFRs and interfaces requirements b/w client existing system and new system"
+        #details = "Architect: Design architecture, implement solution that meet FRs, NFRs and interfaces requirements b/w client existing system and new system"
+        details = "架構師: 依據專案需求設計架構, 考量專案功能性與非功能性的需求, 佐以調查訪談客戶既有系統的功能與介面據以設計開發新系統"
         [[params.experience.list.items]]
-        details = "DBA: I performed job role of DBA. The job includes database management, migration(Migrate from Oracle to IBM DB2), data synchronization"
+        #details = "DBA: I performed job role of DBA. The job includes database management, migration(Migrate from Oracle to IBM DB2), data synchronization"
+        details = "資料庫管理師: 負責資料庫資料以及程式移轉(從 Oracle到IBM DB2), 資料同步,制定規範以及效能調教"
         [[params.experience.list.items]]
-        details = "SA: Identified requirements and designed the application; lead development team to make it real"
+        #details = "SA: Identified requirements and designed the application; lead development team to make it real"
+        details = "系統分析師: 分析需求, 設計應用系統, 與開發團隊合作實現專案目標"
 
         [[params.experience.list]]
         title = "Software Developer"

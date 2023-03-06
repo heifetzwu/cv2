@@ -89,7 +89,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Lambda"
         
         [[params.skills.list]]
-        title = "Network"
+        title = "Service Mesh"
         [[params.skills.list.items]]
         details = "Istio"
         [[params.skills.list]]
@@ -171,8 +171,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        
-				name = "hiking/marathon/cycling/swim/yoga"
+        name = "hiking/marathon/cycling/swim/yoga"
         [[params.interests.list]]
         name = "photo"
         [[params.interests.list]]
@@ -207,7 +206,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "System architect and tech. lead/support engagement SoW/proposal"
         
         [[params.experience.list.items]]
-        details = "Architect: Design architecture, implement solution that meet FRs, NFRs and interfaces requirements b/w client existing system and new system"
+        details = "Architect: Design architecture, implement solution that meet FRs, NFRs and interfaces requirements b/w client existing system. Base on the above develop new system"
         [[params.experience.list.items]]
         details = "DBA: I performed job role of DBA. The job includes database management, migration(Migrate from Oracle to IBM DB2), data synchronization"
         [[params.experience.list.items]]
