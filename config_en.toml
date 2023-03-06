@@ -215,8 +215,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Software Developer"
         dates = "1998 - 2000"
-        company = "宏詹資訊 IISI"
-        details = "developer"
+        company = "IISI"
+        details = "application development"
         [[params.experience.list.items]]
         details = "I took full training of Oracle Database and it’s development tool; Achieved to get certified “Oracle  Certified  Application  Developer  Rel.1”."
         [[params.experience.list.items]]
@@ -225,7 +225,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "STAFF"
         dates = "1996 - 1998"
-        company = "長榮國際"
+        company = "Evergreen Int'l Corp."
         details = "I were in charge for insurances for aviation including APA, LOL, Aircraft and Liabilities. Coverage included insurance placement, renewal and claim"
 
 

@@ -203,7 +203,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "IT Consultant"
+        title = "IT顧問"
         dates = "2000 - 2013"
         company = "IBM"
         details = "擔任專案系統架構技術主管/協助專案規畫書建議"
@@ -219,7 +219,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "系統分析師: 分析需求, 設計應用系統, 與開發團隊合作實現專案目標"
 
         [[params.experience.list]]
-        title = "Software Developer"
+        title = "程式開發設計師"
         dates = "1998 - 2000"
         company = "宏詹資訊 IISI"
         details = "程式開發"
