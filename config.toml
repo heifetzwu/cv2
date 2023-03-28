@@ -69,7 +69,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "CI/CD Tools"
         [[params.skills.list.items]]
-        details = "Jenkins"
+        details = "Jenkins,gitlab CI"
         [[params.skills.list]]
         title = "Container Orchestration"
         [[params.skills.list.items]]
