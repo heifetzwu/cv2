@@ -56,11 +56,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Language"
         [[params.skills.list.items]]
-        details = "go"
+        details = "go, python"
+        [[params.skills.list]]
+        title = "IaC"
+        [[params.skills.list.items]]
+        details = "Terraform, Ansible"
         [[params.skills.list]]
         title = "Version Control"
         [[params.skills.list.items]]
-        details = "git,svn"
+        details = "git, svn"
 
         [[params.skills.list]]
         title = "Middleware"
@@ -69,7 +73,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "CI/CD Tools"
         [[params.skills.list.items]]
-        details = "Jenkins,Gitlab CI"
+        details = "Jenkins, Gitlab CI"
         [[params.skills.list]]
         title = "Container Orchestration"
         [[params.skills.list.items]]
