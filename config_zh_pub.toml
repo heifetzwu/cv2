@@ -3,7 +3,8 @@
 #baseURL = "https://cv.okidog.xyz/"
 baseURL = "https://heifetzwu.github.io/"
 #baseURL = "http://172.18.0.3/"
-languageCode = "zh"
+#languageCode = "zh"
+languageCode = "zh-tW"
 title = ""
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
@@ -43,28 +44,36 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.skills]
         enable = true
 
-        
-        
         [[params.skills.list]]
-        title = "Database"
+        title = "技術"
+        
         [[params.skills.list.items]]
-        details = "Oracle/DB2/MongoDB/mysql/postgreql"
-        [[params.skills.list]]
-        title = "Scripting"
+        details = "Oracle/DB2/MongoDB/sql/資料庫設計"
+        [[params.skills.list.items]]
+        details = "golang/java"
+        [[params.skills.list.items]]
+        details = "git/svn"
+        [[params.skills.list.items]]
+        details = "AWS"
+        [[params.skills.list.items]]
+        details = "Docker/Kubernetes/Jenkins"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+       [[params.skills.list]]
+        title = "技術 Scripting"
         [[params.skills.list.items]]
         details = "bash"
         [[params.skills.list]]
         title = "Language"
         [[params.skills.list.items]]
-        details = "go, python"
-        [[params.skills.list]]
-        title = "IaC"
-        [[params.skills.list.items]]
-        details = "Terraform, Ansible"
+        details = "go"
         [[params.skills.list]]
         title = "Version Control"
         [[params.skills.list.items]]
-        details = "git, svn"
+        details = "git,svn"
 
         [[params.skills.list]]
         title = "Middleware"
@@ -73,7 +82,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "CI/CD Tools"
         [[params.skills.list.items]]
-        details = "Jenkins,gitlab CI"
+        details = "Jenkins"
+        
         [[params.skills.list]]
         title = "Container Orchestration"
         [[params.skills.list.items]]
@@ -93,17 +103,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Lambda"
         
         [[params.skills.list]]
-        title = "Service Mesh"
+        title = "Network"
         [[params.skills.list.items]]
-        details = "Istio"
+        details = "Isitio"
         [[params.skills.list]]
-        title = "Profession"
+        title = "專業"
         [[params.skills.list.items]]
         details = "溝通/團隊合作/問題解決/專案管理"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        
+
+
+
 
 
 
@@ -182,6 +192,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
+
+
+
+
     [params.interests]
         enable = true
 
@@ -201,42 +215,46 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "個性穩定, 負責, 擅長溝通合作, 過往經歷了系統分析以及專案架構師培養了豐富的領導團隊經驗以及扎實的技術基礎。 \n後來因為長輩照護需求, 暫時中斷了工作。\n近年來自我精進雲端, 以及叢集分散式架構, 期許能有更有效率的方式來完成更有價值的工作。"
-        
+        text = "擔任系統架構顧問與設計/雲端服務與Devops工程師"
+
+
+
+
+
+
+
+
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "IT顧問"
+        title = "IT Consultant"
         dates = "2000 - 2013"
         company = "IBM"
         details = "擔任專案系統架構技術主管/協助專案規畫書建議"
         
         [[params.experience.list.items]]
-        #details = "Architect: Design architecture, implement solution that meet FRs, NFRs and interfaces requirements b/w client existing system and new system"
-        details = "架構師: 依據專案需求設計架構, 考量專案功能性與非功能性的需求, 佐以調查訪談客戶既有系統的功能與介面據以設計開發新系統"
+        details = "Architect: Design architecture, implement solution that meet FRs, NFRs and interfaces requirements b/w client existing system and new system"
         [[params.experience.list.items]]
-        #details = "DBA: I performed job role of DBA. The job includes database management, migration(Migrate from Oracle to IBM DB2), data synchronization"
-        details = "資料庫管理師: 負責資料庫資料以及程式移轉(從 Oracle到IBM DB2), 資料同步,制定規範以及效能調教"
+        details = "DBA: I performed job role of DBA. The job includes database management, migration(Migrate from Oracle to IBM DB2), data synchronization"
         [[params.experience.list.items]]
-        #details = "SA: Identified requirements and designed the application; lead development team to make it real"
-        details = "系統分析師: 分析需求, 設計應用系統, 與開發團隊合作實現專案目標"
+        details = "SA: Identified requirements and designed the application; lead development team to make it real"
 
         [[params.experience.list]]
-        title = "程式開發設計師"
+        title = "Software Developer"
         dates = "1998 - 2000"
         company = "宏詹資訊 IISI"
         details = "程式開發"
         [[params.experience.list.items]]
-        details = "接受 Oracle 資料庫工具的培訓 (Oracle Database, PL/SQL, Developer 2000)"
+        details = "I took full training of Oracle Database and it’s development tool; Achieved to get certified “Oracle  Certified  Application  Developer  Rel.1”."
         [[params.experience.list.items]]
         #details = "Developed  Shop  floor  control  system  for  Sanyang  Motor  Company  (SYM)  which  is  for  auto  production  line  for  manufacturing."
-        details = "開發三陽汽車的製程管理系統管理汽車製造流程"
+        details = "Developed Shop floor control system for SYM to build automation control system for car manufacturing"
         [[params.experience.list]]
-        title = "課員"
+        title = "STAFF"
         dates = "1996 - 1998"
         company = "長榮國際"
-        details = "主要負責航空保險業務(APA, LOL, 機體與責任), 工作內容包括保險安排, 續保與理賠"
+        details = "I were in charge for insurances for aviation including APA, LOL, Aircraft and Liabilities. Coverage included insurance placement, renewal and claim"
 
        
 
@@ -245,77 +263,67 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.projects.list]]
-        #title = "CTBC Filenet "
-        title = "C Bank Filenet "
+        title = "CTBC Filenet "
         meta = " ITA & SA & SD"
         tagline = "Reverse client's existing spec and code to new design spec and Java code. Incorporate new Filenet solution in the project, tailor new solution to meet requirements and tackle the gap of the new solution. Lead team to develop applications"
 
         [[params.projects.list]]
-        #title = "FCB New Enterprise Bank Portal "
-        title = "F Bank New Internet Banking Portal"
+        title = "F Bank New Internet Banking Portal "
         meta = "ITA & SA & SD"
         tagline = "Upgrade and develop new cx portal with new look and feel, multi-lingo capability. Perform HA and Stress test to ensure robustness"
 
         [[params.projects.list]]
-        #title = "Walsin eProcurement"
-        title = "W Co. eProcurement"
+        title = "Walsin eProcurement"
         meta = "ITA"
         tagline = "Lead team to build eProcurement system(EP) on WAS/Oracle. Interface to SAP via JCO. Design data migration strategy from old system to new EP"
 
         [[params.projects.list]]
-        #title = "TTL Employee Portal"
-        title = "T Co. Employee Portal"
+        title = "TTL Employee Portal"
         meta = "ITA"
         tagline = "Build up Employee Portal. Integrate client existing authentication  (i.e. AD) to enforce SSO. Integrate client interfaced systems, such as official documents system, e-flow system, contacts system and work time /compensation system.	Plan the interfaces for ERP integration next stage"
 
         [[params.projects.list]]
-        #title = "FCB Enterprise Bank Upgrade"
-        title = "F Bank Enterprise Bank Upgrade"
+        title = "FCB Enterprise Bank Upgrade"
         meta = "ITA"
         tagline = "Upgrade application system, enhance system availability and performance. DB performance tuning including statement tuning and system tuning. Design the architecture to enable HA in the EB(Enterprise Bank) system covering the products of MQ, WAS and DB2. FXML gateway service performance tuning."
         
         [[params.projects.list]]
-        #title = "F Center Tax Reform Consulting Project"
-        title = "F  Tax Reform Consulting Project"
+        title = "FDC Tax Reform Consulting Project"
         meta = "IT Consultant"
         tagline = "Introduce the methodologies to the project to help client blueprint their next system. Methodologies adopted including EA, Guiding Principle, Component Model, Architecture Decision"
         
         [[params.projects.list]]
-        #title = "ePost "
-        title = "ePost "
+        title = "Post Office ePost"
         meta = "SA"
         tagline = "SA and SD of the ePost"
       
         [[params.projects.list]]
-        #title = "CGH Information"
-        title = "C Hospital HIS"
+        title = "C Hospital Health Information"
         meta = "DBA"
         tagline = "DB Migration from Oracle to DB2 including data and store procedure.Design multi-districts, data extracts and loading mechanism. Manage schema for SA and perform statement tuning and system performance tuning"
         
         [[params.projects.list]]
-        #title = "FCB eCheck"
-        title = "F Bank eCheck"
+        title = "First Commercial Bank eCheck"
         meta = "ITA & SA"
         tagline = "Integrate client ESB system. Perform TCH MIG/SIG"
         [[params.projects.list]]
-        title = "H Bank eCheck"
-        #title = "HNCB eCheck"
+        title = "HNCB Bank eCheck"
         meta = "ITA & SA"
-        tagline = "Integrate client EAI system.	Perform TCH MIG/SIG"
+        tagline = "Integrate client EAI system.	Perform TCH MIG/SIG."
 
     [params.information]
-        enable = false
+        enable = true
 
-        [[params.information.list]]
-        title = "Papers"
-        [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
+        # [[params.information.list]]
+        # title = "Papers"
+        # [[params.information.list.items]]
+        # details = "2018 · Lorem Ipsum"
+        # [[params.information.list.items]]
+        # details = "2016 · Sed Fringilla"
 
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
+        # [[params.information.list]]
+        # title = "Interests"
+        # details = "Climbing, Snowboarding, Photography, Travelling"
 
 
 
@@ -327,18 +335,18 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.social]
         enable = true
 
-       # [[params.social.list]]
-       # icon = "fab fa-github-square"
-       # url = "//github.com/username"
-       # title = "username"
-       # [[params.social.list]]
-       # icon = "fab fa-linkedin"
-       # url = "//linkedin.com/in/username"
-       # title = "username"
-       # [[params.social.list]]
-       # icon = "fab fa-twitter-square"
-       # url = "//twitter.com/username"
-       # title = "@username"
+    #    [[params.social.list]]
+    #    icon = "fab fa-github-square"
+    #    url = "//github.com/username"
+    #    title = "username"
+    #    [[params.social.list]]
+    #    icon = "fab fa-linkedin"
+    #    url = "//linkedin.com/in/username"
+    #    title = "username"
+    #    [[params.social.list]]
+    #    icon = "fab fa-twitter-square"
+    #    url = "//twitter.com/username"
+    #    title = "@username"
 
 
 

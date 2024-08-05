@@ -11,7 +11,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
     author = "Jack Wu"
-    description = "履歷表"
+    description = "Resume"
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
 
@@ -23,7 +23,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "台北"
+        location = "Taipei"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
@@ -73,7 +73,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "CI/CD Tools"
         [[params.skills.list.items]]
-        details = "Jenkins,gitlab CI"
+        details = "Jenkins, Gitlab CI"
         [[params.skills.list]]
         title = "Container Orchestration"
         [[params.skills.list.items]]
@@ -99,7 +99,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Profession"
         [[params.skills.list.items]]
-        details = "溝通/團隊合作/問題解決/專案管理"
+        details = "communication/co-work/team building/prj. mgmt."
         [[params.skills.list.items]]
         details = "Design and implement database structures"
         [[params.skills.list.items]]
@@ -112,25 +112,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "管理科學系"
-        university = "國立交通大學"
+        degree = "Management Science"
+        university = "NCTU"
         dates = "1990 - 1994"
         [[params.education.list]]
-        degree = "普通高中"
-        university = "師大附中"
+        #degree = "普通高中"
+        university = "HSNTNU"
         dates = ""
-
-
-
-
-
 
 
 
     [params.awards]
         enable = true
 
-	[[params.awards.list]]
+    [[params.awards.list]]
         name = "CKA"
         url = "https://www.credly.com/badges/636bfa4b-7f56-49f9-ae2b-92991e998e5c/public_url"
         body = "Certified Kubernetes Architect"
@@ -163,21 +158,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         date = "1999"
 
 
-
-
-
-
-
-
     [params.languages]
         enable = true
 
         [[params.languages.list]]
-        name = "中文/台語"
-        level = "母語"
+        name = "Chinese"
+        level = "Native"
         [[params.languages.list]]
-        name = "英文"
-        level = "流利"
+        name = "English"
+        level = "Fluent"
 
 
 
@@ -186,11 +175,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "爬山/馬拉松/單車/游泳/瑜珈"
+        name = "hiking/marathon/cycling/swim/yoga"
         [[params.interests.list]]
-        name = "攝影"
+        name = "photo"
         [[params.interests.list]]
-        name = "古典音樂"
+        name = "classical music"
         
 
 
@@ -201,44 +190,47 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "個性穩定, 負責, 擅長溝通合作, 過往經歷了系統分析以及專案架構師培養了豐富的領導團隊經驗以及扎實的技術基礎。 \n後來因為長輩照護需求, 暫時中斷了工作。\n近年來自我精進雲端, 以及叢集分散式架構, 期許能有更有效率的方式來完成更有價值的工作。"
-        
+        #text = "擔任系統架構顧問與設計/雲端服務與Devops工程師"
+        #text = "System architect design and consultancy/cloud and devops/SRE"
+        text = "Stable personality, responsible, and skilled in communication and collaboration. Having past experience in system analysis and project architecture, I have developed rich leadership and team management skills, as well as a solid technical foundation. However, I had to temporarily interrupt my work due to the need for elderly care. In recent years, I have been self-improving in cloud computing and distributed cluster architecture, with the expectation of finding more efficient ways to complete more valuable work."
+
+
+
+
+
+
+
     [params.experience]
         enable = true
-
+        
         [[params.experience.list]]
-        title = "IT顧問"
+        title = "IT Consultant"
         dates = "2000 - 2013"
         company = "IBM"
-        details = "擔任專案系統架構技術主管/協助專案規畫書建議"
+        details = "System architect and tech. lead/support engagement SoW/proposal"
         
         [[params.experience.list.items]]
-        #details = "Architect: Design architecture, implement solution that meet FRs, NFRs and interfaces requirements b/w client existing system and new system"
-        details = "架構師: 依據專案需求設計架構, 考量專案功能性與非功能性的需求, 佐以調查訪談客戶既有系統的功能與介面據以設計開發新系統"
+        details = "Architect: Design architecture, implement solution that meet FRs, NFRs and interfaces requirements b/w client existing system. Base on the above develop new system"
         [[params.experience.list.items]]
-        #details = "DBA: I performed job role of DBA. The job includes database management, migration(Migrate from Oracle to IBM DB2), data synchronization"
-        details = "資料庫管理師: 負責資料庫資料以及程式移轉(從 Oracle到IBM DB2), 資料同步,制定規範以及效能調教"
+        details = "DBA: I performed job role of DBA. The job includes database management, migration(Migrate from Oracle to IBM DB2), data synchronization"
         [[params.experience.list.items]]
-        #details = "SA: Identified requirements and designed the application; lead development team to make it real"
-        details = "系統分析師: 分析需求, 設計應用系統, 與開發團隊合作實現專案目標"
+        details = "SA: Identified requirements and designed the application; lead development team to make it real"
 
         [[params.experience.list]]
-        title = "程式開發設計師"
+        title = "Software Developer"
         dates = "1998 - 2000"
-        company = "宏詹資訊 IISI"
-        details = "程式開發"
+        company = "IISI"
+        details = "application development"
         [[params.experience.list.items]]
-        details = "接受 Oracle 資料庫工具的培訓 (Oracle Database, PL/SQL, Developer 2000)"
+        details = "I took full training of Oracle Database and it’s development tool; Achieved to get certified “Oracle  Certified  Application  Developer  Rel.1”."
         [[params.experience.list.items]]
         #details = "Developed  Shop  floor  control  system  for  Sanyang  Motor  Company  (SYM)  which  is  for  auto  production  line  for  manufacturing."
-        details = "開發三陽汽車的製程管理系統管理汽車製造流程"
+        details = "Developed Shop floor control system for SYM to build automation control system for car manufacturing"
         [[params.experience.list]]
-        title = "課員"
+        title = "STAFF"
         dates = "1996 - 1998"
-        company = "長榮國際"
-        details = "主要負責航空保險業務(APA, LOL, 機體與責任), 工作內容包括保險安排, 續保與理賠"
-
-       
+        company = "Evergreen Int'l Corp."
+        details = "I were in charge for insurances for aviation including APA, LOL, Aircraft and Liabilities. Coverage included insurance placement, renewal and claim"
 
 
     [params.projects]
@@ -252,7 +244,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.projects.list]]
         #title = "FCB New Enterprise Bank Portal "
-        title = "F Bank New Internet Banking Portal"
+        title = "F Bank New Internet Banking Portal "
         meta = "ITA & SA & SD"
         tagline = "Upgrade and develop new cx portal with new look and feel, multi-lingo capability. Perform HA and Stress test to ensure robustness"
 
@@ -298,8 +290,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         meta = "ITA & SA"
         tagline = "Integrate client ESB system. Perform TCH MIG/SIG"
         [[params.projects.list]]
+        #title = "H Bank eCheck"
         title = "H Bank eCheck"
-        #title = "HNCB eCheck"
         meta = "ITA & SA"
         tagline = "Integrate client EAI system.	Perform TCH MIG/SIG"
 
@@ -327,20 +319,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.social]
         enable = true
 
-       # [[params.social.list]]
-       # icon = "fab fa-github-square"
-       # url = "//github.com/username"
-       # title = "username"
-       # [[params.social.list]]
-       # icon = "fab fa-linkedin"
-       # url = "//linkedin.com/in/username"
-       # title = "username"
-       # [[params.social.list]]
-       # icon = "fab fa-twitter-square"
-       # url = "//twitter.com/username"
-       # title = "@username"
-
-
-
-
-
+        #[[params.social.list]]
+        #icon = "fab fa-github-square"
+        #url = "//github.com/username"
+        #title = "username"
+        #[[params.social.list]]
+        #icon = "fab fa-linkedin"
+        #url = "//linkedin.com/in/username"
+        #title = "username"
+        #[[params.social.list]]
+        #icon = "fab fa-twitter-square"
+        #url = "//twitter.com/username"
+        #title = "@username"

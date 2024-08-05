@@ -6,7 +6,14 @@
                                 <ul class="list-unstyled resume-awards-list">
                                     {{ range .Site.Params.awards.list }}
                                     <li class="mb-3">
-                                        <div class="font-weight-bold">{{ .name }}</div>
+                                        
+                                        <div class="font-weight-bold">
+                                            {{ if eq .url "" }}
+                                                {{ .name }}
+                                            {{ else }}
+                                                <a href="{{ .url }}">{{ .name }} </a>
+                                            {{ end }} 
+                                        </div>
                                         <div class="text-muted">{{ .body }}</div>
                                         <div class="text-muted">{{ .date }}</div>
                                     </li>
