@@ -1,7 +1,8 @@
 # Page settings
 
 #baseURL = "https://cv.okidog.xyz/"
-baseURL = "https://heifetzwu.github.io/"
+#baseURL = "https://heifetzwu.github.io/"
+baseURL = "."
 #baseURL = "http://172.18.0.3/"
 languageCode = "zh"
 title = ""
