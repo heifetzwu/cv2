@@ -22,6 +22,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "Jack Wu"
         tagline = "Architect / SRE"
         avatar = "jack1.jpg"
+        avatarurl = "https://heifetzwu.github.io/assets/images/jack1.jpg"
 
     [params.contact]
         enable = true
