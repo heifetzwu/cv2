@@ -7,7 +7,8 @@ build:
 
 build_en:
 	hugo --config config_en.toml -d public_en
-	powershell -Command "Copy-Item -Path './public_en/index.html' -Destination './public/index_en.html'  "
+	
+	
 #	cp ./public_en/index.html ./public/index_en.html
 #	cp ./public_en/index.html ./static/assets/index_en.html
 
@@ -24,10 +25,18 @@ run_en:
 	hugo --config config_en.toml -D server
 
 copy:
+	cp ./public_en/index.html ./public/index_en.html
 	cp ./public/index.html /home/jack/user/workspaces/gowebmvc2/resource/html/heifetzwu.github.io/
 	cp ./public/index_en.html /home/jack/user/workspaces/gowebmvc2/resource/html/heifetzwu.github.io/
 
+copy_to_local_docker_cv1:
+	cp ./public_en/index.html ./public/index_en.html
+	cp ./public/index.html    /home/jack/user/jack-docker/host/site1/html/
+	cp ./public/index_en.html /home/jack/user/jack-docker/host/site1/html/
+
+
 copy_win:
+	powershell -Command "Copy-Item -Path './public_en/index.html' -Destination './public/index_en.html'  "
 	powershell -Command "Copy-Item -Path '$(SOURCE_DIR)' -Destination '$(DEST_DIR)' -Recurse -force"
 	powershell -Command "Copy-Item -Path '$(SOURCE_DIR)' -Destination '$(DEST_DIR_SAM)' -Recurse -force"
 #	Copy-Item  -Path ".\public\*" -Destination "C:\workspace\pythonProject\pywebcv2\resource\cv2\"  -Recurse -Force
